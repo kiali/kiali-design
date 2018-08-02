@@ -7,11 +7,12 @@ The namespace overview would give a high-level summary of the health of the serv
 
 ### Namespace Cards
 - **Title:** Displays the name of the namespace. May wrap to a second line if necessary.
-- **Status Counts:** Shows the number of services with each status. Icons should only be shown for a given status if there are services in the namespace that have that status.
 - **Service Count:** The total number of services in the namespace.
+- **Status Counts:** Shows the number of services with each status. Icons should only be shown for a given status if there are services in the namespace that have that status.
+
 
 ### Card interactions
 - Clicking on a card links to a view of the services list filtered by the relevant namespace
 - Clicking on a status count links to a view of the services with that status in the selected namespace
-- Hovering over a status count displays a popover with a list of the services with that status.
+- Hovering over a status count displays a popover with a list of the names of services with that status.
   - If more than 6 services with a given status exist, the popover should show the names of the first 5 followed by the message "and # more..." to describe the total number
