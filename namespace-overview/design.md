@@ -14,5 +14,5 @@ The namespace overview would give a high-level summary of the health of the serv
 ### Card interactions
 - Clicking on a card links to a view of the services list filtered by the relevant namespace
 - Clicking on a status count links to a view of the services with that status in the selected namespace
-- Hovering over a status count displays a popover with a list of the names of services with that status.
-  - If more than 6 services with a given status exist, the popover should show the names of the first 5 followed by the message "and # more..." to describe the total number
+- Hovering over a status count displays a tooltip with a list of the names of services with that status.
+  - If more than 6 services with a given status exist, the tooltip should show the names of the first 5 followed by the message "and # more..." to describe the total number
