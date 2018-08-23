@@ -1,5 +1,22 @@
 # Service Graph
 
+## Graph Zoom Tool
+The graph zoom tool contains buttons that enable the user to zoom the graph in and out as well as fit the zoom to the current view. This tool may also contain a trigger for the graph legend as well as a graph drawing algorithm selector.
+
+![zoom tool on the service graph](img/zoom-tool-full.png)
+
+
+### Zoom Tool Actions
+![zoom tool](img/zoom-tool.png)
+- **Zoom in:** Zooms the graph by a factor of 2 (e.g. 50% => 100%, 100% => 200%)
+- **Zoom out:** Zooms the graph by a factor of .5 (e.g. 200% => 100%, 100% => 50%)
+- **Zoom to fit:** Zooms the graph to fit the current viewport size
+- **Legend:** Shows and hides the graph legend
+
+#### Additional Actions
+![zoom tool](img/zoom-tool-display-buttons.png)
+- **Graph format toggle:** The graph zoom tool could also contain the buttons that select which graph drawing algorithm is used. This should only be done if all available graph algorithms are able to be described by icons or some other extremely short identifier.
+
 ## Service Representation Colors
 Nodes in the service graph are colored according to their health. Borders are 1px wide for unselected nodes and 3px for selected nodes. Graph edges are colored similarly, with 1px lines when unselected, and 3px lines when selected. There is no separate hover state for graph edges, but items not directly connected to the hovered edge should be blurred into the background.
 
