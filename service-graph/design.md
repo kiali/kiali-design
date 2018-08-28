@@ -2,9 +2,7 @@
 
 ## Graph Zoom Tool
 The graph zoom tool contains buttons that enable the user to zoom the graph in and out as well as fit the zoom to the current view. This tool may optionally contain a trigger for the graph legend as well as a graph layout selector.
-
 ![zoom tool on the service graph](img/zoom-tool-full.png)
-
 
 ### Zoom Tool Actions
 ![zoom tool](img/zoom-tool.png)
@@ -16,6 +14,21 @@ The graph zoom tool contains buttons that enable the user to zoom the graph in a
 #### Optional Actions
 ![zoom tool](img/zoom-tool-display-buttons.png)
 - **Graph layout toggle:** The graph zoom tool could optionally include buttons to toggle the graph layout. This should only be done if all available graph layouts are able to be described by icons or some other extremely short identifier.
+
+## Legend
+The graph legend appears when the legend trigger button is clicked and contains a brief overview of the possible items that a user may encounter on the graph. If technically possible, this legend should be draggable around the viewport so that it does not obscure important details. If that is not technically possible, the legend should be fixed in the bottom left corner of the viewport.
+![graph legend](img/legend.png)
+
+### Legend Details
+![legend details](img/legend-details.png)
+1. **Legend Title**
+1. **Documentation Link:** links to an external page of documentation that describes all the graph elements in detail
+1. **Close Button:** Dismisses the legend. Clicking on the legend trigger button again will also dismiss the legend
+1. **Key:** Contains all of the shapes and colors that have meaning on the graph and labels each with a succinct, descriptive phrase.
+
+### Optional Legend Layout
+![narrow graph legend](img/legend-alt.png)
+Optionally, the legend could be organized with a more horizontal layout. This would not work as well for narrow viewports, but might obstruct less of the graph on wide screens.
 
 ## Service Representation Colors
 Nodes in the service graph are colored according to their health. Borders are 1px wide for unselected nodes and 3px for selected nodes. Graph edges are colored similarly, with 1px lines when unselected, and 3px lines when selected. There is no separate hover state for graph edges, but items not directly connected to the hovered edge should be blurred into the background.
