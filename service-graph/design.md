@@ -48,5 +48,27 @@ Nodes in the service graph are colored according to their health. Borders are 1p
 - Grey Stroke: #8b8d8f (pf-black-500)
 
 ### Unused
-![unused edges](img/edge-status-unused.png)
+![unused nodes](img/node-status-unused.png)
 - Grey Stroke: #8b8d8f (pf-black-500)
+- White Fill: #ffffff (pf-white)
+- Blue Stroke: #39a5dc (pf-blue-300)
+- Blue Fill: #def3ff (pf-blue-50)
+
+### TCP Traffic
+![TCP traffic edges](img/edge-status-tcp.png)
+- Dark Blue Stroke: #004368 (pf-blue-600)
+
+
+## Traffic Animation options
+
+### Normal traffic
+  ![possible traffic animation appearance](img/traffic-1.png)
+
+  ![possible traffic animation appearance](img/traffic-2.png)
+
+  ![possible traffic animation appearance](img/traffic-3.png)
+
+### Failed request
+  ![possible traffic animation appearance](img/traffic-4.png)
+
+  ![possible traffic animation appearance](img/traffic-5.png)
