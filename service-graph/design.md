@@ -26,10 +26,6 @@ The graph legend appears when the legend trigger button is clicked and contains 
 1. **Close Button:** Dismisses the legend. Clicking on the legend trigger button again will also dismiss the legend
 1. **Key:** Contains all of the shapes and colors that have meaning on the graph and labels each with a succinct, descriptive phrase.
 
-### Optional Legend Layout
-![narrow graph legend](img/legend-alt.png)
-Optionally, the legend could be organized with a more horizontal layout. This would not work as well for narrow viewports, but might obstruct less of the graph on wide screens.
-
 ## Service Representation Colors
 Nodes in the service graph are colored according to their health. Borders are 1px wide for unselected nodes and 3px for selected nodes. Graph edges are colored similarly, with 1px lines when unselected, and 3px lines when selected. There is no separate hover state for graph edges, but items not directly connected to the hovered edge should be blurred into the background.
 
