@@ -33,3 +33,8 @@
 
 ![breadcrumb switcher](img/breadcrumb-switcher-open.png)
 - In the case of items within the "Istio Config" section, the dropdown should contain only objects of the same type (Rule, virtualService, etc.)
+
+
+### Metrics page - link to Grafana dashboard
+![grafana link](img/link-to-grafana.png)
+Link to Grafana dashboard should be present at the top of the Metrics page
